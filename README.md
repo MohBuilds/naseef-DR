@@ -56,7 +56,7 @@ npm run preview
 
 Filenames use lowercase words separated by hyphens. Profile photographs include Naseef's name. Other names describe the visible subject; they do not assert unverified event dates or roles. All originals are preserved. See `assets/asset-index.json` for the complete old-to-new mapping.
 
-Original media is retained locally and ignored by Git to keep the deployment repository small. Back up `assets/originals/` separately when transferring this project. The website uses optimized copies in `public/assets/`.
+Original media is preserved in `assets/originals/` and included in the repository. The website uses optimized copies in `public/assets/`; only the generated `dist/` directory is deployed.
 
 When changing a website image, update its `src` in `public/index.html` and the matching entry in `photographs` in `public/js/script.js`. `data-photo` values are indices into that collection. Raster source information is recorded alongside each image.
 
