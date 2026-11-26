@@ -1,0 +1,121 @@
+{
+  "originals": [
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.02 AM.jpeg",
+      "path": "assets/originals/photos/field-trip-group-selfie.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.04 AM.jpeg",
+      "path": "assets/originals/photos/healthcare-diploma-photograph.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.30 AM.jpeg",
+      "path": "assets/originals/photos/health-awareness-outreach-group.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.31 AM (1).jpeg",
+      "path": "assets/originals/photos/unilorin-centre-visit.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.31 AM (2).jpeg",
+      "path": "assets/originals/photos/unilorin-centre-thumbs-up.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.31 AM (3).jpeg",
+      "path": "assets/originals/photos/unilorin-centre-portrait-with-colleague.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.31 AM (4).jpeg",
+      "path": "assets/originals/photos/naseef-orphanage-visit-portrait.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.31 AM (5).jpeg",
+      "path": "assets/originals/photos/orphanage-community-group.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.31 AM (6).jpeg",
+      "path": "assets/originals/photos/orphanage-visit-three-person-group.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.31 AM.jpeg",
+      "path": "assets/originals/photos/health-awareness-outreach-wide.jpeg"
+    },
+    {
+      "original": "WhatsApp Image 2026-11-24 at 6.22.32 AM.jpeg",
+      "path": "assets/originals/photos/naseef-abdulquadri-white-coat-profile.jpeg"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.02 AM (1).mp4",
+      "path": "assets/originals/videos/medical-student-field-visit-01.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.02 AM.mp4",
+      "path": "assets/originals/videos/medical-student-field-visit-02.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.03 AM (1).mp4",
+      "path": "assets/originals/videos/indoor-event-clip.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.03 AM (2).mp4",
+      "path": "assets/originals/videos/naseef-speaking-at-desk-01.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.03 AM (3).mp4",
+      "path": "assets/originals/videos/naseef-speaking-at-desk-02.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.03 AM.mp4",
+      "path": "assets/originals/videos/clinical-room-visit.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.04 AM (1).mp4",
+      "path": "assets/originals/videos/naseef-speaking-at-desk-03.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.04 AM (2).mp4",
+      "path": "assets/originals/videos/naseef-speaking-at-desk-04.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.04 AM.mp4",
+      "path": "assets/originals/videos/naseef-speaking-at-desk-05.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.30 AM.mp4",
+      "path": "assets/originals/videos/health-awareness-outreach-procession.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.31 AM (1).mp4",
+      "path": "assets/originals/videos/field-trip-personal-moment.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.31 AM (2).mp4",
+      "path": "assets/originals/videos/field-visit-arrival.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.31 AM.mp4",
+      "path": "assets/originals/videos/outdoor-field-trip-conversation.mp4"
+    },
+    {
+      "original": "WhatsApp Video 2026-11-24 at 6.22.32 AM.mp4",
+      "path": "assets/originals/videos/naseef-clinical-attire-selfie.mp4"
+    },
+    {
+      "original": "naseef.abdulquadri-Diploma-in-Healthcare-Quality-and-Patient-Safety-Diploma-in-Healthcare-Quality-and-Patient-Safety-Valdymas-Intelligence.pdf",
+      "path": "assets/originals/documents/naseef-abdulquadri-healthcare-quality-patient-safety-diploma.pdf"
+    }
+  ],
+  "web_derivatives": {
+    "portrait.webp": "images/profile/naseef-abdulquadri-white-coat.webp",
+    "outreach.webp": "images/outreach/health-awareness-group.webp",
+    "community.webp": "images/community/orphanage-group.webp",
+    "campus.webp": "images/education/unilorin-centre-visit.webp",
+    "service.webp": "images/community/orphanage-visit-group.webp",
+    "outreach-wide.webp": "images/outreach/health-awareness-wide.webp",
+    "perspective-poster.webp": "images/video-posters/naseef-speaking-at-desk.webp",
+    "perspective.mp4": "videos/naseef-speaking-at-desk.mp4",
+    "healthcare-quality-patient-safety.pdf": "documents/naseef-abdulquadri-healthcare-quality-patient-safety-diploma.pdf",
+    "diploma-photo.jpeg": "images/credentials/healthcare-diploma.jpeg"
+  },
+  "note": "Names describe visible content; event identities and dates are not independently verified."
+}

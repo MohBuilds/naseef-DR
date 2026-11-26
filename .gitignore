@@ -1,0 +1,15 @@
+dist/
+archive/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+Thumbs.db
+.DS_Store
+.impeccable/review/
+.impeccable/questions/
+.impeccable/profile-preview.png
+# Preserve original media locally; publish the optimized website assets.
+/assets/originals/
+/outputs/

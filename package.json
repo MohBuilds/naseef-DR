@@ -1,0 +1,14 @@
+{
+  "name": "naseef-abdulquadri-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Naseef Abdulquadri's medical student and community health portfolio",
+  "type": "module",
+  "scripts": {
+    "dev": "python -m http.server 4174 --bind 127.0.0.1 --directory public",
+    "build": "node scripts/build.mjs",
+    "check": "node --check public/js/theme.js && node --check public/js/script.js && node scripts/check.mjs",
+    "preview": "python -m http.server 4174 --bind 127.0.0.1 --directory dist"
+  },
+  "engines": { "node": ">=18" }
+}
