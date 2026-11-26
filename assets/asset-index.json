@@ -117,5 +117,14 @@
     "healthcare-quality-patient-safety.pdf": "documents/naseef-abdulquadri-healthcare-quality-patient-safety-diploma.pdf",
     "diploma-photo.jpeg": "images/credentials/healthcare-diploma.jpeg"
   },
-  "note": "Names describe visible content; event identities and dates are not independently verified."
+  "note": "Names describe visible content; event identities and dates are not independently verified.",
+  "generated_headshot": {
+    "tool": "built-in image_gen",
+    "type": "AI-generated identity-reference portrait",
+    "reference": "assets/originals/photos/naseef-abdulquadri-white-coat-profile.jpeg",
+    "master": "assets/generated/headshots/naseef-abdulquadri-studio-headshot.png",
+    "prompt": "Use case: identity-preserve. Create one high quality photorealistic professional headshot for Naseef Abdulquadri's medical student portfolio, using the supplied photograph as the sole identity reference. The man in the foreground with black rectangular glasses is the subject. Preserve his recognizable facial identity, proportions, face shape, natural dark skin tone, short hair, facial hair, age, nose, mouth and glasses style very faithfully. Improve photographic conditions, not his identity: remove the room, background person, screenshot borders, text, lens reflections and selfie distortion. Natural head-and-shoulders studio portrait, upright relaxed posture, direct eye contact with eyes naturally visible through clear lenses, composed approachable expression with a very slight natural smile. Retain a clean white medical coat over a pale blue collared shirt and understated navy tie, without badges, names, qualifications, stethoscope or logos. Soft broad window-like studio light from the front-left, gentle fill, realistic skin texture and natural asymmetry; no plastic retouching, no beauty filter. Simple matte cool light-gray studio backdrop. Portrait 4:5 framing with generous space above the head and both shoulders inside frame, camera at eye level, refined contemporary documentary portrait, plausible 85mm camera lens. No text, no watermark, no other people. Output a finished photograph, not a mockup.",
+    "web_derivative": "WebP compression only; original PNG preserved",
+    "date": "2026-11-26"
+  }
 }

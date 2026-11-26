@@ -65,3 +65,7 @@ When changing a website image, update its `src` in `public/index.html` and the m
 The header offers light, dark, and device appearance. Device appearance is the default; explicit choices are stored locally. The initial theme is applied before styles load, avoiding a flash of the wrong theme. The full-photo viewer supports previous/next controls, arrow keys, Escape, and focus restoration. Reduced-motion preferences disable the opening reveal. A one-page professional profile is available as a PDF.
 
 The website is published privately using Sites. `.openai/hosting.json` preserves the existing Site identity. Hanken Grotesk is self-hosted; its SIL Open Font License is included with the font.
+
+## AI-assisted headshot
+
+The portfolio uses an AI-assisted studio portrait generated from Naseef’s supplied photograph at the user’s request. The original selfie remains in `assets/originals/photos/`. The full-resolution PNG and exact prompt are in `assets/generated/headshots/`; the optimized WebP is in `public/assets/images/profile/`. No community photographs were generated.

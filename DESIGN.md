@@ -21,7 +21,7 @@ colors:
 typography:
   display:
     fontFamily: '"Hanken Grotesk", sans-serif'
-    fontSize: "clamp(4.1rem, 7.5vw, 6rem)"
+    fontSize: "clamp(4rem, 7vw, 5.5rem)"
     fontWeight: 500
     lineHeight: 0.98
     letterSpacing: "-0.04em"
@@ -50,8 +50,8 @@ rounded:
 spacing:
   inline: "15px"
   column: "30px"
-  section: "112px"
-  section-mobile: "72px"
+  section: "88px"
+  section-mobile: "58px"
 components:
   inline-link:
     textColor: "{colors.light-accent}"
@@ -59,8 +59,8 @@ components:
     height: "44px"
     padding: "0"
   appearance-choice:
-    width: "33px"
-    height: "33px"
+    width: "44px"
+    height: "44px"
     rounded: "{rounded.circular}"
   appearance-choice-selected:
     backgroundColor: "{colors.light-ink}"
@@ -120,9 +120,9 @@ The local Latin WOFF2 supports normal weights (100â€“900), uses swap display, an
 
 ## Layout
 
-The desktop container is `min(1240px, calc(100% - 112px))`. Section rhythm uses the frontmatter spacing values, with asymmetric text/image grids and full-width separating rules. The sticky header is (86px) high. The opening photographic sequence uses (1.65fr 1fr .85fr), a (9px) gap, and (300px) height.
+The desktop container is `min(1240px, calc(100% - 112px))`. Section rhythm uses the frontmatter spacing values, with asymmetric text/image grids and full-width separating rules. The sticky header is (86px) high. A modest rectangular identity portrait sits alongside the role in the hero. The opening photographic sequence uses (1.65fr 1fr .85fr), a (9px) gap, and (300px) height.
 
-At **1500px and above**, the opening sequence grows to (360px), with increased hero top spacing. At **1100px and below**, container gutters become (36px) per side, grid gaps tighten, and education entries stack internally. At **760px and below**, gutters become (20px), section spacing becomes mobile scale, the header becomes two rows (102px), major grids stack, and the sequence shows two images at (255px) height. The third photograph remains in the full gallery. At **360px and below**, the introductory action stacks and the sequence becomes (225px) high.
+At **1500px and above**, the opening sequence grows to (360px), with increased hero top spacing. At **1100px and below**, container gutters become (36px) per side, grid gaps tighten, and education entries stack internally. At **760px and below**, gutters become (20px), section spacing becomes mobile scale, the header becomes two rows (124px), major grids stack, and the sequence shows one full-width outreach photograph at its native 4:3 ratio. The third photograph remains in the full gallery. At **360px and below**, the introductory action stacks with a smaller identity portrait.
 
 ## Elevation & Depth
 
@@ -142,7 +142,7 @@ Inline links use blue, semibold text, a small inline SVG, and a (44px) minimum h
 
 ### Appearance control
 
-A thin pill outline contains three circular icon buttons: light, dark, and device. The selected choice reverses page ink and ground and exposes `aria-pressed`. The default is device; validated choices persist under `naseef-appearance` in local storage. Device mode tracks operating-system changes, and storage events synchronize tabs. Storage failures leave session controls usable. The head script applies the theme before the stylesheet loads.
+A thin pill outline contains three 44px circular icon buttons: light, dark, and device. The selected choice reverses page ink and ground and exposes `aria-pressed`. The default is device; validated choices persist under `naseef-appearance` in local storage. Device mode tracks operating-system changes, and storage events synchronize tabs. Storage failures leave session controls usable. The head script applies the theme before the stylesheet loads.
 
 ### Navigation
 
@@ -150,11 +150,11 @@ Visible anchor navigation stays available on mobile in the second header row. Ac
 
 ### Photographic sequence and viewer
 
-Photo buttons crop with `object-fit: cover`; presentation filters reduce saturation, with a further brightness reduction in dark mode. Hover restores saturation and scales to (1.025). The viewer displays five supplied photographs with `object-fit: contain` and no photographic filter, preserving the complete image. Native dialog modality, labelled controls, left/right arrow browsing, Escape close, outside click close, and opener focus restoration support exploration. Its image area is (62dvh), reduced to (52dvh) on mobile.
+Photo buttons have visible touch-friendly view actions. Hero photographs preserve native framing on phones; other photo buttons crop with `object-fit: cover`; presentation filters reduce saturation, with a further brightness reduction in dark mode. Hover restores saturation and scales to (1.025). The viewer displays five supplied photographs with `object-fit: contain` and no photographic filter, preserving the complete image. Native dialog modality, labelled controls, left/right arrow browsing, Escape close, outside click close, and opener focus restoration support exploration. Its image area is (62dvh), reduced to (52dvh) on mobile. A polite status message reports image loading or failure.
 
-### Disclosure and feedback
+### Feedback
 
-The personal video sits inside native details/summary, loads no video before interaction, and pauses when collapsed. Clipboard feedback uses a polite live status toast for (3500ms), including an email-link fallback message if copying fails.
+Clipboard feedback uses a polite live status toast for (3500ms), including an email-link fallback message if copying fails.
 
 ### Focus and motion
 
@@ -166,11 +166,11 @@ Anchors, buttons, summary, and video receive a (2px) accent focus outline offset
 - **Do** use the semantic light/dark pairs for new surfaces.
 - **Do** keep photographs rectangular and offer the complete image in the viewer.
 - **Do** preserve visible keyboard focus and reduced-motion behavior.
-- **Do** use real supplied material and accurate student status.
+- **Do** use real supplied field photographs and accurate student status. The identity headshot is AI-generated from the supplied selfie at the user’s explicit request; keep its provenance and original reference.
 
 ### Don't:
 - **Don't** introduce decorative shadows into the flat section hierarchy.
 - **Don't** convert photographic sequences into rounded generic cards.
 - **Don't** infer clinical qualifications, impact counts, or testimonials from visual presentation.
 
-Not canonized: the supplied video has no transcript; that content limitation is disclosed in the page and is not a reusable accessibility rule. This document records source behavior, not a claim of exhaustive runtime or accessibility verification.
+This document records source behavior, not a claim of exhaustive runtime or accessibility verification.
